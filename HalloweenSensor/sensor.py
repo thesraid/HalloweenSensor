@@ -64,7 +64,7 @@ try:
 		# I can't remeber why I did this. MAy not be needed. 
                 time.sleep(0.01)
 
-# When I hit Ctrl & C to shit it down, try to do so gracefully. 
+# When I hit Ctrl & C to shut it down, try to do so gracefully. 
 except KeyboardInterrupt:
         print(" Quit")
         # Reset GPIO settings
